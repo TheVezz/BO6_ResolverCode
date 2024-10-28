@@ -11,7 +11,7 @@ BO6 Resolver Code è un'applicazione che consente di calcolare e risolvere codic
 - **Python 3.12** o versioni successive.
 - **Pillow** per la gestione delle immagini.
 
-##Uso senza file EXE
+## Uso senza file EXE
 - Scarica il source code
 - Estrai l'archivio compresso
 - Avvia lo script con python
