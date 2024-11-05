@@ -1,28 +1,33 @@
 # BO6 Resolver Code
 
-## Descrizione
-BO6 Resolver Code è un'applicazione che consente di calcolare e risolvere codici specifici utilizzando variabili X, Y e Z.
+## Description
+BO6 Resolver Code is an application that allows you to calculate and solve specific codes using X, Y and Z variables.
 
-## Caratteristiche
-- Interfaccia utente grafica (GUI) semplice.
-- Possibilità di scegliere i simboli per X, Y e Z in qualsiasi ordine
+## Features
+- Simple graphical user interface (GUI).
+- Ability to choose symbols for X, Y and Z in any order
 
-## Requisiti senza file EXE
-- **Python 3.12** o versioni successive.
-- **Pillow** per la gestione delle immagini.
+## Requirements without EXE file
+- **Python 3.12** or later.
+- **Pillow** for image handling.
 
-## Uso senza file EXE
-- Scarica il source code
-- Estrai l'archivio compresso
-- Avvia lo script con python
+## Usage without EXE file
+- Download the source code
+- Extract the compressed archive
+- Run the script with python
 
-## Uso del file EXE
-- Scarica il file EXE
-- Avvia il file EXE
+## Building the EXE yourself
+- Navigate to the file directory in the terminal
+- Run in cmd "pyinstaller --noconsole --onefile --add-data "img/*.png;img" ResolverCode.py"
+- If you have not set the environment variables specify the python directory, for example installed from Microsoft Store "%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\python.exe -m PyInstaller --noconsole --onefile --add-data "img/*.png;img" ResolverCode.py"
 
-## Procedura d'uso del tool
-- Seleziona la variabile desiderata X, Y, Z (ordine di default X,Y,Z)
-- Seleziona Il simbolo
-- Passa alla variabile successiva
-- Quando inserite tutte e tre ottieni i risultati
-- Ora puoi inserire il codice nel gioco
+## Usage of EXE file
+- Download the EXE file
+- Run the EXE file
+
+## Procedure for using the tool
+- Select the desired variable X, Y, Z (default order X,Y,Z)
+- Select the symbol
+- Move to the next variable
+- When you enter all three you get the results
+- Now you can insert the code into the game
