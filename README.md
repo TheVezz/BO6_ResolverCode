@@ -18,7 +18,7 @@ BO6 Resolver Code is an application that allows you to calculate and solve speci
 
 ## Building the EXE yourself
 - Navigate to the file directory in the terminal
-- Run in cmd "pyinstaller --noconsole --onefile --add-data "img/*.png;img" ResolverCode.py"
+- Run in cmd "pyinstaller --noconsole --onefile --add-data "img/*.png;img" --icon="icon.ico" ResolverCode.py"
 - If you have not set the environment variables specify the python directory, for example installed from Microsoft Store "%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\python.exe -m PyInstaller --noconsole --onefile --add-data "img/*.png;img" --icon="icon.ico" ResolverCode.py"
 
 ## Usage of EXE file
